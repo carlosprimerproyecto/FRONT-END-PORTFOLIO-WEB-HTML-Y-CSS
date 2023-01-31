@@ -19,15 +19,31 @@ body{
   
 }
 
+#caja-redes-sociales{
+    display:flex;
+    justify-content: end;
+}
+
 #redes-sociales{
     display:flex;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     border-radius: 8px;
     padding:5px;
-    justify-content: end;
-	
-
+   
 }
+
+.boton-edit{
+   
+   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+   border:2px solid #ffffff;
+   border-radius: 8px;
+   padding:5px;
+   margin-right: 1rem;
+   
+}
+
+
+
 #logo-argentina a img{
     width:160px;
     height:60px;
@@ -37,6 +53,7 @@ body{
     margin: .25rem;
 }
 #banner{
+    margin-top: .5rem;
     display:flex;
     padding:5px;
     border-radius: 8px;
@@ -44,6 +61,7 @@ body{
 }
 #banner img{
     width: 20%;
+    height: 20%;
 }
 
 .texto-banner{
