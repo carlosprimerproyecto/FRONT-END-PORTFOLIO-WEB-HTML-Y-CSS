@@ -67,6 +67,29 @@ body{
 .texto-banner{
     margin: 20px;
     color: aliceblue;
-    font-size:x-large;
+    font-size: medium;
     font-family: 'Roboto', sans-serif;
+}
+
+
+.presentación{
+    display: flex;
+    margin: .5rem;
+    border-radius: 15px;
+    border:solid 2px rgb(0, 44, 121);
+    padding:1rem;
+    background-image: linear-gradient(to top, #2a416dbc 0%, #81a1da 100%);
+    
+}
+
+.texto-presentación{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: medium;
+}
+
+.foto-perfil{
+    float:right;
+    margin-left:2rem
+   
 }
