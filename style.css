@@ -84,10 +84,19 @@ body{
 }
 
 .texto-presentación{
-    border:.2rem
+    
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-size: medium;
+    
+}
+
+.texto-presentación-2{
+    
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: medium;
+    
 }
 
 .foto-perfil{
@@ -123,10 +132,18 @@ body{
 }
 
 .tar-cabeza:hover{
-    border: #246ac7 solid 3px;
+    border: #4196f7 solid 4px;
 }
 
+.pie-de-pagina{
+    margin: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: #DCD9D4;
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+ background-blend-mode: soft-light,screen;
 
+}
 
 
        
