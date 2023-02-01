@@ -84,6 +84,7 @@ body{
 }
 
 .texto-presentación{
+    border:.2rem
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-size: medium;
